@@ -1,0 +1,24 @@
+{
+  "name": "site-portfolio",
+  "homepage": "https://github.com/tigasbhz/site-portifolio",
+  "authors": [
+    "tigasbhz <codebhz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "breakpoint-sass": "^2.7.1",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

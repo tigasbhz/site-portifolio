@@ -1,0 +1,25 @@
+{
+  "name": "site-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigasbhz/site-portifolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tigasbhz/site-portifolio/issues"
+  },
+  "homepage": "https://github.com/tigasbhz/site-portifolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^3.0.0",
+    "watch": "^1.0.1"
+  }
+}
