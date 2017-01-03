@@ -1,0 +1,82 @@
+header
+	+clearfix
+	min-height: 475px
+	position: relative
+
+	&:after
+		content: ""
+		display: block
+		width: 100%
+		height: 45px 
+		position: absolute
+		bottom: 0
+		+gradient(90deg, $verde, $azul)
+	background:
+		image: url('../images/slide-topo-imagem.png')
+		position: top center
+		repeat: no-repeat
+		attachment: fixed
+		size: cover
+
+	.logo
+		float: left
+		margin-top: 30px
+		img
+			width: 70px
+			height: 35px
+	
+	.links
+		float: right
+		margin-top: 30px
+		nav,
+		.social
+			display: inline-block
+			border: solid 2px 
+
+		.social
+			i
+				border: solid 2px 
+				+border-radius(120px)
+				padding: 4px 4px
+				text-align: center
+
+
+
+
+
+
+
+		nav
+			+breakpoint($celular)
+				display: none 
+			+breakpoint($tablet)
+				display: none 
+			ul
+				li
+					display: inline-block
+					margin: 0 20px 0 0
+					a
+						color: $branco
+						text-transform: uppercase
+		.social
+			li
+				display: inline-block
+				margin: 0 20px 0 0
+				a
+					color: $branco
+
+	h1
+		clear: both 
+		margin: 175px auto 30px auto
+		font-weight: $light
+		border: 3px solid $branco
+		padding: 20px
+		display: table
+		+breakpoint($celular)
+			+font-size(40px)
+
+	h1,
+	p
+		color: $branco
+		text-align: center
+		text-transform: uppercase
